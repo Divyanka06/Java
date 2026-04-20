@@ -37,7 +37,7 @@ public class LibraryManager {
         System.out.print("Title: ");   String title  = sc.nextLine();
         System.out.print("Author: ");  String author = sc.nextLine();
         System.out.print("Genre: ");   String genre  = sc.nextLine();
-        books.add(new String[]{title, author, genre}); // ArrayList grows dynamically
+        books.add(new String[]{title, author, genre}); 
         System.out.println("Added! ArrayList size: " + books.size());
     }
 
